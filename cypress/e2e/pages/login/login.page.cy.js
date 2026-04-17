@@ -1,8 +1,14 @@
-import { LoginPageObjects } from "../../page-objects/login.objects";
-const loginPage = new LoginPageObjects();
+import { LoginPageObjects } from "../../page-objects/login/login.objects";
+ const loginPage = new LoginPageObjects();
 
-describe("Minha aplicação", () => {
-    it("carrega a página inicial", () => {
+describe("Logar na aplicação", () => {
+    it("Logar com sucesso", () => {
         loginPage.login();
+    });
+    it("Comprar camisa", () => {
+        cy.log("Comprar camisa");
+    });
+    it("Fazer logout", () => {
+        cy.log("Fazer logout");
     });
 });

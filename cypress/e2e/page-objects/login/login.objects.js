@@ -1,4 +1,4 @@
-import { LoginPageElements } from "../page-elements/login.elements";
+import { LoginPageElements } from "../../page-elements/login/login.elements";
 
 export class LoginPageObjects {
     constructor() {
